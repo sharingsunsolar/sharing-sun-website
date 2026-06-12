@@ -118,9 +118,9 @@ export default function NewInstalls() {
             <div className="step">
               <h3>Install &amp; switch-on</h3>
               <p>
-                Most residential installs take one to two days on the roof.
-                Then inspection, utility permission to operate, and you&apos;re
-                producing.
+                We build in stages — racking, panels, and the electrical — and
+    pass every inspection your jurisdiction requires along the way.
+    Then utility permission to operate, and you&apos;re producing.
               </p>
             </div>
           </div>
