@@ -23,7 +23,7 @@ export default function Contact() {
         <div className="container contact-grid">
           <form
             className="quote-form"
-            action="https://formsubmit.co/REPLACE-WITH-YOUR-EMAIL"
+            action="https://formsubmit.co/info@sharingsuninc.com"
             method="POST"
           >
             <input
@@ -34,7 +34,7 @@ export default function Contact() {
             <input
               type="hidden"
               name="_next"
-              value="https://REPLACE-WITH-YOUR-VERCEL-URL/thanks"
+              value="https://sharing-sun-website.vercel.app/thanks"
             />
 
             <div className="field-row">
@@ -97,7 +97,7 @@ export default function Contact() {
             <h2>Reach us directly</h2>
             <p>
               <strong>Phone:</strong>{" "}
-              <a href="tel:+13035550123">(303) 555-0123</a>
+              <a href="tel:+17204435534">(720) 443-5534</a>
             </p>
             <p>
               <strong>Email:</strong>{" "}
