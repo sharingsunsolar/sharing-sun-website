@@ -30,7 +30,7 @@ export default function Home() {
             </h1>
             <p>
               Sharing Sun is a NABCEP-certified, Class A licensed solar contractor.
-              We detach and reinstall panels for re-roofs, upgrade systems that no
+              We install new solar, detach and reinstall systems for re-roofs, upgrade systems that no
               longer cover the bill, and build commercial solar — from first permit
               to final inspection.
             </p>
