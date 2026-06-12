@@ -55,7 +55,9 @@ export default function Financing() {
             approval — we&apos;ll point you to the current program details
             when we quote your project, and you decide what works for your
             budget. We&apos;re solar contractors, not loan officers, and
-            we&apos;ll never pressure a financing decision.
+            we&apos;ll never pressure a financing decision. {" "}Our contractor registration with the RENU program is currently in
+process — ask where things stand when you request your quote, and
+we&apos;ll give you a straight answer.
           </p>
         </div>
       </section>
