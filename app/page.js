@@ -68,7 +68,7 @@ export default function Home() {
         <div className="container">
           <span>NABCEP PV INSTALLATION PROFESSIONAL</span>
           <span>CO CLASS A GENERAL CONTRACTOR</span>
-          <span>LICENSED &middot; BONDED &middot; INSURED</span>
+          <span>LICENSED &middot; INSURED</span>
         </div>
       </div>
 
