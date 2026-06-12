@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
               SHARING&nbsp;SUN
             </a>
             <nav className="main-nav" aria-label="Main">
+  <a href="/new-installs">New Installs</a>
               <a href="/detach-reinstall">Detach &amp; Reinstall</a>
               <a href="/upgrades">Upgrades</a>
               <a href="/commercial">Commercial</a>
