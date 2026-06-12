@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
               <p className="footer-label">Credentials</p>
               <p className="mono-line">NABCEP PV INSTALLATION PROFESSIONAL</p>
               <p className="mono-line">CO CLASS A GENERAL CONTRACTOR</p>
-              <p className="mono-line">LICENSED &middot; BONDED &middot; INSURED</p>
+              <p className="mono-line">LICENSED &middot; INSURED</p>
             </div>
           </div>
           <div className="container footer-bottom">
