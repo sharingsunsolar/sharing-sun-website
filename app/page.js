@@ -90,6 +90,15 @@ export default function Home() {
                 comes back online tested and inspected.
               </p>
               <span className="card-link">Learn more &rarr;</span>
+                  <a href="/new-installs" className="card">
+  <h3>New Solar Installation</h3>
+  <p>
+    New residential solar, sized honestly to your actual usage and
+    your actual roof — designed, permitted, and installed by the
+    same NABCEP-certified crew that quoted it.
+  </p>
+  <span className="card-link">Learn more &rarr;</span>
+</a>
             </a>
             <a href="/upgrades" className="card">
               <h3>System Upgrades</h3>
