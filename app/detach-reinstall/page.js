@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Solar Panel Detach & Reinstall for Re-Roofs | Denver Metro | Sharing Sun, Inc.",
   description:
-    "Re-roofing a home with solar? Sharing Sun safely removes, stores, and reinstalls your panels around your roofer's schedule — NABCEP-certified, permitted, and tested back on.",
+    "Re-roofing a home with solar after hail? Sharing Sun safely de-energizes, removes, and reinstalls your panels around your roofer's schedule — NABCEP-certified, sealed, bonded correctly, and tested back on.",
 };
 
 export default function DetachReinstall() {
@@ -12,11 +12,12 @@ export default function DetachReinstall() {
           <p className="eyebrow">Detach &amp; Reinstall</p>
           <h1>Re-roofing under solar? We make the panels the easy part.</h1>
           <p className="lede">
-            A new roof shouldn&apos;t put your solar investment at risk. We
-            safely de-energize and remove your array before tear-off, protect
-            the panels while the roofers work, and reinstall everything with
-            fresh flashing and hardware — tested, inspected, and producing
-            again before we leave.
+            If you&apos;ve been through a hail season in the Denver metro, you
+            know what it does to a roof. When the storm finally wins and
+            it&apos;s time for a new one, we safely de-energize your solar
+            system and remove every solar component from the roof so your
+            roofer can do their work — then we put it all back, seal every
+            penetration, and verify the system is producing before we leave.
           </p>
           <p style={{ marginTop: "28px" }}>
             <a href="/contact" className="btn-amber">Get a D&amp;R quote</a>
@@ -29,8 +30,8 @@ export default function DetachReinstall() {
           <p className="eyebrow">Why it matters who does this</p>
           <h2>This is electrical work, not just lifting panels</h2>
           <p className="lede">
-            Your solar array is a live electrical system bolted through your
-            roof deck. Detaching and reinstalling it the wrong way can void
+            Your solar array is a live electrical system bolted into your
+            roof. Detaching and reinstalling it the wrong way can void
             equipment warranties, create roof leaks at the attachment points,
             or leave the system silently underproducing. Here&apos;s what a
             certified solar contractor brings that a general laborer
@@ -54,21 +55,20 @@ export default function DetachReinstall() {
               </p>
             </div>
             <div className="card-static">
-              <h3>New flashing &amp; mounting hardware</h3>
+              <h3>Flashing &amp; mounting hardware</h3>
               <p>
                 Reinstalling on a new roof means new penetrations done right.
-                We flash and seal every attachment point to work with your new
-                roofing system, not against it.
+                We flash and seal every penetration, and we make sure all
+                electrical bonding on the system is done correctly.
               </p>
             </div>
             <div className="card-static">
-              <h3>Tested back to full production</h3>
-              <p>
-                Before we call it done, we recommission the system, verify
-                every string or microinverter is reporting, and confirm
-                you&apos;re producing what you were before — or tell you why
-                not.
-              </p>
+              <h3>Tested &amp; inspected before we leave</h3>
+<p>
+  We recommission the system and verify it&apos;s producing the
+  way it was before the roof work — tested and inspected before
+  we call the job done.
+</p>
             </div>
           </div>
         </div>
@@ -97,16 +97,16 @@ export default function DetachReinstall() {
             <div className="step">
               <h3>Your new roof goes on</h3>
               <p>
-                The roofing crew works on a clear deck. If weather slides
-                their schedule, ours slides with it — no re-booking hassle.
+                The roofing crew works with nothing in their way — no panels,
+                no racking, no conduit. If weather slides their schedule, ours slides with
+                it — no re-booking hassle.
               </p>
             </div>
             <div className="step">
               <h3>Reinstall &amp; switch-on</h3>
               <p>
-                Panels back on with new flashing and hardware, system
-                recommissioned and verified producing. You get photo
-                documentation of the finished work.
+                Panels back on, system recommissioned and verified producing.
+                You get photo documentation of the finished work.
               </p>
             </div>
           </div>
@@ -150,7 +150,8 @@ export default function DetachReinstall() {
                 Honestly — yes. With the array already off the roof,
                 it&apos;s the cheapest moment you&apos;ll ever have to add
                 panels, replace an aging inverter, or add critter guard. Ask
-                us during the quote and we&apos;ll tell you if it pencils.
+                us during the quote and we&apos;ll tell you honestly whether
+                it&apos;s worth the money.
               </p>
             </div>
           </div>
