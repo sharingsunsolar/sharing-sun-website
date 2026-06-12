@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="container header-inner">
             <a href="/" className="wordmark">
-              <span className="wordmark-sun" aria-hidden="true"></span>
+              <img src="/logo.png" alt="" className="wordmark-logo" />
               SHARING&nbsp;SUN
             </a>
             <nav className="main-nav" aria-label="Main">
