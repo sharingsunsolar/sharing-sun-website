@@ -76,7 +76,7 @@ export default function Home() {
       <section className="section section-cloud">
         <div className="container">
           <p className="eyebrow">What we do</p>
-          <h2>Four ways we keep the sun working for you</h2>
+          <h2>From new installs to reinstalls, one certified crew</h2>
           <p className="lede">
             From a single re-roof to a full commercial array, every job runs
             through the same licensed, certified crew.
