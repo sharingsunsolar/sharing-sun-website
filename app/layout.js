@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
             <div>
               <p className="footer-label">Contact</p>
               <p>
-                <a href="tel:+13035550123">(303) 555-0123</a>
+                <a href="tel:+1720-443-5543">(720) 443-5543</a>
               </p>
               <p>
                 <a href="mailto:info@sharingsuninc.com">info@sharingsuninc.com</a>
