@@ -92,6 +92,13 @@ button:focus-visible {
   box-shadow: 0 0 0 3px rgba(246, 168, 28, 0.25);
 }
 
+.wordmark-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  display: block;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -113,6 +120,11 @@ button:focus-visible {
   padding: 10px 20px;
   border-radius: var(--radius);
   transition: background 0.15s ease;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  display: inline-block;
 }
 
 .nav-cta:hover,
@@ -127,6 +139,7 @@ button:focus-visible {
   border-radius: var(--radius);
   border: 2px solid var(--ink);
   transition: background 0.15s ease, color 0.15s ease;
+  display: inline-block;
 }
 
 .btn-ghost:hover {
@@ -173,7 +186,29 @@ button:focus-visible {
   letter-spacing: 0.08em;
 }
 
-/* ---------- hero ---------- */
+/* ---------- interior page hero ---------- */
+
+.page-hero {
+  padding: 72px 0 56px;
+  border-bottom: 1px solid var(--line);
+}
+
+.page-hero h1 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 18px;
+  max-width: 760px;
+}
+
+.page-hero .lede {
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+  max-width: 640px;
+}
+
+/* ---------- homepage hero ---------- */
 
 .hero {
   padding: 96px 0 72px;
@@ -319,6 +354,64 @@ button:focus-visible {
   font-size: 0.95rem;
 }
 
+/* static (non-link) version of the card */
+
+.card-static {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 30px 28px;
+}
+
+.card-static h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.card-static p {
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+/* ---------- numbered process steps ---------- */
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  counter-reset: step;
+}
+
+.step {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px 24px;
+}
+
+.step::before {
+  counter-increment: step;
+  content: "0" counter(step);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--amber-deep);
+  display: block;
+  margin-bottom: 12px;
+}
+
+.step h3 {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.step p {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
 /* ---------- roofer band ---------- */
 
 .band {
@@ -377,6 +470,81 @@ button:focus-visible {
   font-size: 0.97rem;
 }
 
+/* ---------- contact page ---------- */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.quote-form {
+  display: grid;
+  gap: 18px;
+}
+
+.field label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin-bottom: 6px;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  outline: 3px solid var(--amber);
+  outline-offset: 1px;
+  border-color: var(--amber);
+}
+
+.field textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.contact-aside {
+  background: var(--cloud);
+  border-radius: var(--radius);
+  padding: 30px 28px;
+}
+
+.contact-aside h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.contact-aside p {
+  margin-bottom: 14px;
+  color: var(--ink-soft);
+}
+
+.contact-aside a {
+  color: var(--amber-deep);
+  font-weight: 700;
+}
+
 /* ---------- footer ---------- */
 
 .site-footer {
@@ -426,16 +594,27 @@ button:focus-visible {
   .hero {
     padding: 64px 0 48px;
   }
-  .hero-grid {
+  .hero-grid,
+  .contact-grid {
     grid-template-columns: 1fr;
     gap: 40px;
   }
   .card-grid,
   .fin-grid,
-  .footer-grid {
+  .footer-grid,
+  .field-row {
     grid-template-columns: 1fr;
+  }
+  .steps {
+    grid-template-columns: 1fr 1fr;
   }
   .section {
     padding: 64px 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .steps {
+    grid-template-columns: 1fr;
   }
 }
