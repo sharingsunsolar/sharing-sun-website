@@ -46,7 +46,7 @@ export default function Commercial() {
                 Re-roofing a commercial building with solar on it — including
                 ballasted flat-roof arrays? We de-energize, remove, stage, and
                 reinstall around your roofing schedule, the same disciplined
-                process we run on hundreds of residential re-roofs.
+                process we run on residential re-roofs all hail season.
               </p>
             </div>
             <div className="card-static">
@@ -67,6 +67,23 @@ export default function Commercial() {
                 requirements. More on the financing page.
               </p>
             </div>
+          </div>
+
+          <div className="photo-pair">
+            <figure className="site-photo">
+              <img
+                src="/commercial-denver-skyline.jpg"
+                alt="Ballasted commercial flat roof solar array with the Denver skyline in the distance"
+              />
+              <figcaption>Ballasted flat-roof rows — Denver</figcaption>
+            </figure>
+            <figure className="site-photo">
+              <img
+                src="/commercial-sunset-array.jpg"
+                alt="Completed commercial rooftop solar array at sunset with the Front Range behind it"
+              />
+              <figcaption>Commercial array at switch-on</figcaption>
+            </figure>
           </div>
         </div>
       </section>
