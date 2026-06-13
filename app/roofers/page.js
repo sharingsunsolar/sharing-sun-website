@@ -25,7 +25,7 @@ export default function Roofers() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">Why roofers work with us</p>
           <h2>Built to keep your job on schedule</h2>
@@ -70,7 +70,7 @@ export default function Roofers() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">How it works</p>
           <h2>Four steps, zero babysitting</h2>
@@ -107,7 +107,7 @@ export default function Roofers() {
         </div>
       </section>
 
-      <section className="band">
+      <section className="band" data-animate>
         <div className="container band-inner">
           <div>
             <p className="eyebrow">Hail season</p>
@@ -125,7 +125,7 @@ export default function Roofers() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container" style={{ textAlign: "center" }}>
           <h2>Add us to your sub list</h2>
           <p className="lede" style={{ margin: "0 auto 32px" }}>
