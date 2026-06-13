@@ -1,156 +1,183 @@
 export const metadata = {
-  title: "New Solar Installation | NABCEP-Certified Installer | Denver Metro | Sharing Sun, Inc.",
+  title: "Solar Panel Detach & Reinstall for Re-Roofs | Denver Metro | Sharing Sun, Inc.",
   description:
-    "New residential solar installation in the Denver metro, sized honestly to your actual usage. NABCEP-certified, Class A licensed, battery-ready design, permits to final inspection.",
+    "Re-roofing a home with solar after hail? Sharing Sun safely de-energizes, removes, and reinstalls your panels around your roofer's schedule — NABCEP-certified, sealed, bonded correctly, and tested back on.",
 };
 
-export default function NewInstalls() {
+export default function DetachReinstall() {
   return (
     <>
       <section className="page-hero">
         <div className="container">
-          <p className="eyebrow">New Solar Installation</p>
-          <h1>Solar sized to your house, not to a sales quota.</h1>
+          <p className="eyebrow">Detach &amp; Reinstall</p>
+          <h1>Re-roofing under solar? We make the panels the easy part.</h1>
           <p className="lede">
-            We&apos;re a small, NABCEP-certified crew — not a call center with
-            a sales team. We look at your actual usage, your actual roof, and
-            your actual utility rates, and we design a system around them.
-            Then the people who quoted it are the people who install it, from
-            the first permit to the final inspection.
+            If you&apos;ve been through a hail season in the Denver metro, you
+            know what it does to a roof. When the storm finally wins and
+            it&apos;s time for a new one, we safely de-energize your solar
+            system and remove every solar component from the roof so your
+            roofer can do their work — then we put it all back, seal every
+            penetration, and verify the system is producing before we leave.
           </p>
           <p style={{ marginTop: "28px" }}>
-            <a href="/contact" className="btn-amber">Get an honest quote</a>
+            <a href="/contact" className="btn-amber">Get a D&amp;R quote</a>
           </p>
         </div>
       </section>
 
       <section className="section section-cloud">
         <div className="container">
-          <p className="eyebrow">Straight talk</p>
-          <h2>Yes, the federal tax credit ended. Here&apos;s the honest math now.</h2>
+          <p className="eyebrow">Why it matters who does this</p>
+          <h2>This is electrical work, not just lifting panels</h2>
           <p className="lede">
-            The 30% federal credit for homeowner-purchased solar went away at
-            the end of 2025 — and any installer who doesn&apos;t mention that
-            is hoping you don&apos;t know. What hasn&apos;t changed: electric
-            rates keep climbing, your roof keeps getting Colorado&apos;s 300
-            days of sun, and a well-sized system still pays for itself through
-            decades of bills you don&apos;t get. The difference is that sizing
-            and pricing matter more than ever — which favors a contractor who
-            quotes lean and installs it themselves. We&apos;ll run your real
-            numbers and tell you honestly whether solar makes sense for your
-            house right now. Sometimes the answer is &quot;not yet&quot; — and
-            we&apos;ll tell you that too.
+            Your solar array is a live electrical system bolted into your
+            roof. Detaching and reinstalling it the wrong way can void
+            equipment warranties, create roof leaks at the attachment points,
+            or leave the system silently underproducing. Here&apos;s what a
+            certified solar contractor brings that a general laborer
+            can&apos;t:
           </p>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <p className="eyebrow">What you get</p>
-          <h2>Designed and built like we own it</h2>
-          <div className="card-grid" style={{ marginTop: "40px" }}>
+          <div className="card-grid">
             <div className="card-static">
-              <h3>Sized to your real usage</h3>
+              <h3>Safe shutdown &amp; disconnect</h3>
               <p>
-                We design from your actual utility bills and how you live —
-                EV in the garage, plans for a hot tub, work-from-home loads —
-                not a one-size template. Right-sized means you pay for
-                production you&apos;ll actually use.
+                We de-energize the system properly — DC and AC sides — before
+                anyone touches a panel, and we handle the utility coordination
+                if the job requires it.
               </p>
             </div>
             <div className="card-static">
-              <h3>Certified across the major equipment</h3>
+              <h3>Warranty-conscious handling</h3>
               <p>
-                NABCEP-certified installation with manufacturer training
-                across the leading panel, inverter, and racking systems —
-                installed to spec so your equipment warranties mean what they
-                say.
+                Panels, optimizers, and microinverters are removed, labeled,
+                and stored so the system goes back exactly as it was designed
+                — protecting your manufacturer warranties.
               </p>
             </div>
             <div className="card-static">
-              <h3>Battery-ready by design</h3>
+              <h3>Flashing &amp; mounting hardware</h3>
               <p>
-                Even if storage isn&apos;t in the budget today, we design the
-                system so a battery drops in cleanly later — no rework, no
-                surprise upgrade costs when you&apos;re ready.
+                Reinstalling on a new roof means new penetrations done right.
+                We flash and seal every penetration, and we make sure all
+                electrical bonding on the system is done correctly.
               </p>
             </div>
             <div className="card-static">
-              <h3>Permits to permission-to-operate</h3>
+              <h3>Tested &amp; inspected before we leave</h3>
               <p>
-                We handle the engineering, the permit, the utility
-                interconnection application, the inspection, and the final
-                switch-on. You sign documents and watch your meter slow down.
+                We recommission the system and verify it&apos;s producing the
+                way it was before the roof work — tested and inspected before
+                we call the job done.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section">
         <div className="container">
-          <p className="eyebrow">How it works</p>
-          <h2>From first call to first kilowatt</h2>
+          <p className="eyebrow">The process</p>
+          <h2>What to expect, start to finish</h2>
           <div className="steps" style={{ marginTop: "40px" }}>
             <div className="step">
-              <h3>Usage review</h3>
+              <h3>Quote &amp; schedule</h3>
               <p>
-                Send us a recent utility bill and we&apos;ll look at your
-                roof. We&apos;ll tell you what size system fits — and whether
-                solar pencils for your house at all.
+                Send us your panel count and your roofer&apos;s timeline. We
+                price per panel and coordinate dates directly with your
+                roofing contractor.
               </p>
             </div>
             <div className="step">
-              <h3>Design &amp; proposal</h3>
+              <h3>Detach day</h3>
               <p>
-                A clear proposal: equipment, layout, expected production, and
-                price. No 90-minute kitchen-table pitch, no tonight-only
-                discount.
+                Usually one day. We shut the system down, remove the array and
+                racking, and stage or store everything safely.
               </p>
             </div>
             <div className="step">
-              <h3>Permits &amp; paperwork</h3>
+              <h3>Your new roof goes on</h3>
               <p>
-                We engineer the system, pull the permit, and file your utility
-                interconnection application while you go about your life.
+                The roofing crew works with nothing in their way — no panels,
+                no racking. If weather slides their schedule, ours slides with
+                it — no re-booking hassle.
               </p>
             </div>
             <div className="step">
-              <h3>Install &amp; switch-on</h3>
+              <h3>Reinstall &amp; switch-on</h3>
               <p>
-                We build in stages — racking, panels, and the electrical — and
-    pass every inspection your jurisdiction requires along the way.
-    Then utility permission to operate, and you&apos;re producing.
+                Panels back on, system recommissioned and verified producing.
+                You get photo documentation of the finished work.
               </p>
             </div>
+          </div>
+
+          <div className="photo-pair">
+            <figure className="site-photo">
+              <img
+                src="/install-in-progress.jpg"
+                alt="Sharing Sun crew detaching solar panels on a commercial re-roof project"
+              />
+              <figcaption>Detach day — crew tied off, panels coming down in order</figcaption>
+            </figure>
+            <figure className="site-photo">
+              <img
+                src="/reinstall-in-progress.jpg"
+                alt="Solar detach in progress with every panel position numbered before removal"
+              />
+              <figcaption>Every panel position numbered before it comes off</figcaption>
+            </figure>
           </div>
         </div>
       </section>
 
-      <section className="band">
-        <div className="container band-inner">
-          <div>
-            <p className="eyebrow">Paying for it</p>
-            <h2>Own it from day one.</h2>
-            <p>
-              We quote systems you own — no leases, no third party on your
-              roof or your title. Colorado&apos;s RENU loan program offers
-              fixed-rate financing built for exactly this kind of project.
-            </p>
+      <section className="section section-cloud">
+        <div className="container">
+          <p className="eyebrow">Good to know</p>
+          <h2>Common questions</h2>
+          <div className="card-grid" style={{ marginTop: "40px" }}>
+            <div className="card-static">
+              <h3>Does insurance cover this?</h3>
+              <p>
+                If your re-roof is part of a hail or storm claim, solar detach
+                &amp; reinstall is commonly included in the insurance scope.
+                We provide line-item documentation your roofer or adjuster can
+                drop straight into the claim.
+              </p>
+            </div>
+            <div className="card-static">
+              <h3>How long is my system offline?</h3>
+              <p>
+                Only as long as the roof takes. Detach is typically a day,
+                reinstall is typically a day, and we schedule both as tight to
+                the roofing work as possible.
+              </p>
+            </div>
+            <div className="card-static">
+              <h3>My roofer offered to move the panels. Should they?</h3>
+              <p>
+                Ask them one question: who handles the electrical disconnect
+                and recommissioning? Most roofers prefer to hand the array to
+                a licensed solar contractor — many of the roofers we work
+                with send us their solar jobs for exactly that reason.
+              </p>
+            </div>
+            <div className="card-static">
+              <h3>Is this a good time to upgrade?</h3>
+              <p>
+                Honestly — yes. With the array already off the roof,
+                it&apos;s the cheapest moment you&apos;ll ever have to add
+                panels, replace an aging inverter, or add critter guard. Ask
+                us during the quote and we&apos;ll tell you honestly whether
+                it&apos;s worth the money.
+              </p>
+            </div>
           </div>
-          <a href="/financing" className="btn-amber">See financing options</a>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container" style={{ textAlign: "center" }}>
-          <h2>Start with a utility bill</h2>
-          <p className="lede" style={{ margin: "0 auto 32px" }}>
-            That&apos;s genuinely all we need to tell you whether solar makes
-            sense for your house — and what it would take to zero out the
-            bill.
+          <p style={{ marginTop: "40px" }}>
+            <a href="/contact" className="btn-amber">Get a D&amp;R quote</a>
+            <a href="/upgrades" className="btn-ghost" style={{ marginLeft: "14px" }}>
+              See upgrade options
+            </a>
           </p>
-          <a href="/contact" className="btn-amber">Get an honest quote</a>
         </div>
       </section>
     </>
