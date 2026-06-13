@@ -66,6 +66,23 @@ export default function Maintenance() {
               </p>
             </div>
           </div>
+
+          <div className="photo-pair">
+            <figure className="site-photo">
+              <img
+                src="/pigeon-nesting-under-panels.jpg"
+                alt="Pigeon nesting underneath solar panels on a Colorado roof before critter guard"
+              />
+              <figcaption>Before: the tenant we found under the array</figcaption>
+            </figure>
+            <figure className="site-photo">
+              <img
+                src="/critter-guard-installed.jpg"
+                alt="Critter guard mesh installed around the edge of a rooftop solar array"
+              />
+              <figcaption>After: critter guard sealed and secured</figcaption>
+            </figure>
+          </div>
         </div>
       </section>
 
