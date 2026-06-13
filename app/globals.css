@@ -694,6 +694,11 @@ button:focus-visible {
   background: var(--paper);
 }
 
+.logo-marquee-group a {
+  display: inline-flex;
+  align-items: center;
+}
+
 .logo-marquee:hover .logo-marquee-track {
   animation-play-state: paused;
 }
