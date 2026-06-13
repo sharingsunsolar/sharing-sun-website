@@ -25,7 +25,7 @@ export default function DetachReinstall() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">Why it matters who does this</p>
           <h2>This is electrical work, not just lifting panels</h2>
@@ -74,7 +74,7 @@ export default function DetachReinstall() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">The process</p>
           <h2>What to expect, start to finish</h2>
@@ -113,7 +113,7 @@ export default function DetachReinstall() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">Good to know</p>
           <h2>Common questions</h2>
