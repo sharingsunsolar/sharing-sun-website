@@ -64,11 +64,11 @@ export default function DetachReinstall() {
             </div>
             <div className="card-static">
               <h3>Tested &amp; inspected before we leave</h3>
-<p>
-  We recommission the system and verify it&apos;s producing the
-  way it was before the roof work — tested and inspected before
-  we call the job done.
-</p>
+              <p>
+                We recommission the system and verify it&apos;s producing the
+                way it was before the roof work — tested and inspected before
+                we call the job done.
+              </p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function DetachReinstall() {
               <h3>Your new roof goes on</h3>
               <p>
                 The roofing crew works with nothing in their way — no panels,
-                no racking, no conduit. If weather slides their schedule, ours slides with
+                no racking. If weather slides their schedule, ours slides with
                 it — no re-booking hassle.
               </p>
             </div>
@@ -109,6 +109,23 @@ export default function DetachReinstall() {
                 You get photo documentation of the finished work.
               </p>
             </div>
+          </div>
+
+          <div className="photo-pair">
+            <figure className="site-photo">
+              <img
+                src="/install-in-progress.jpg"
+                alt="Sharing Sun crew detaching solar panels on a commercial re-roof project"
+              />
+              <figcaption>Detach day — crew tied off, panels coming down in order</figcaption>
+            </figure>
+            <figure className="site-photo">
+              <img
+                src="/reinstall-in-progress.jpg"
+                alt="Solar detach in progress with every panel position numbered before removal"
+              />
+              <figcaption>Every panel position numbered before it comes off</figcaption>
+            </figure>
           </div>
         </div>
       </section>
