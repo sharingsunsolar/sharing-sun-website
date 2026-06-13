@@ -104,14 +104,6 @@ export default function Roofers() {
               </p>
             </div>
           </div>
-
-          <figure className="site-photo">
-            <img
-              src="/crew-on-the-roof.jpg"
-              alt="Sharing Sun solar crew working a detach and reinstall alongside a roofing project"
-            />
-            <figcaption>Our crew, your job site</figcaption>
-          </figure>
         </div>
       </section>
 
