@@ -42,6 +42,26 @@ export default function RootLayout({ children }) {
 
         <main>{children}</main>
 
+        <section className="logo-marquee" aria-label="Certifications and manufacturer partners">
+          <p className="logo-marquee-label">Certified &amp; trained with</p>
+          <div className="logo-marquee-track">
+            {[0, 1].map((dup) => (
+              <div className="logo-marquee-group" key={dup} aria-hidden={dup === 1}>
+                <img src="/logo-tesla.png" alt="Tesla Energy Certified Installer" />
+                <img src="/logo-enphase.png" alt="Enphase Certified" />
+                <img src="/logo-solaredge.png" alt="SolarEdge Certified" />
+                <img src="/logo-unirac.png" alt="UniRac Certified" />
+                <img src="/logo-snapnrack.png" alt="SnapNrack Certified" />
+                <img src="/logo-quickbolt.png" alt="QuickBOLT Certified" />
+                <img src="/logo-sei.png" alt="Solar Energy International trained" />
+                <img src="/logo-nfpa.png" alt="NFPA 70E trained" />
+                <img src="/logo-osha30.png" alt="OSHA 30 trained" />
+                <img src="/logo-bbb.png" alt="BBB Accredited Business" />
+              </div>
+            ))}
+          </div>
+        </section>
+
         <footer className="site-footer">
           <div className="container footer-grid">
             <div>
