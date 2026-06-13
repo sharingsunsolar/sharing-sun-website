@@ -1,1 +1,38 @@
+/* ---------- job photos ---------- */
 
+.site-photo {
+  margin-top: 48px;
+}
+
+.site-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+}
+
+.site-photo figcaption {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 10px;
+}
+
+.photo-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-top: 48px;
+}
+
+.photo-pair .site-photo {
+  margin-top: 0;
+}
+
+@media (max-width: 860px) {
+  .photo-pair {
+    grid-template-columns: 1fr;
+  }
+}
