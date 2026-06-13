@@ -21,7 +21,7 @@ export default function Financing() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">For homeowners</p>
           <h2>The RENU Loan</h2>
@@ -55,14 +55,12 @@ export default function Financing() {
             approval — we&apos;ll point you to the current program details
             when we quote your project, and you decide what works for your
             budget. We&apos;re solar contractors, not loan officers, and
-            we&apos;ll never pressure a financing decision. {" "}Our contractor registration with the RENU program is currently in
-process — ask where things stand when you request your quote, and
-we&apos;ll give you a straight answer.
+            we&apos;ll never pressure a financing decision.
           </p>
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">For commercial properties</p>
           <h2>C-PACE</h2>
@@ -112,7 +110,7 @@ we&apos;ll give you a straight answer.
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">For re-roof customers</p>
           <h2>Detach &amp; reinstall is often insurance-funded</h2>
@@ -127,7 +125,7 @@ we&apos;ll give you a straight answer.
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container" style={{ textAlign: "center" }}>
           <h2>Not sure which path fits?</h2>
           <p className="lede" style={{ margin: "0 auto 32px" }}>
