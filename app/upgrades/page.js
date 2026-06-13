@@ -82,6 +82,14 @@ export default function Upgrades() {
               </p>
             </div>
           </div>
+
+          <figure className="site-photo">
+            <img
+              src="/home-arrays-finished.jpg"
+              alt="Upgraded residential solar arrays with critter guard on a Colorado home"
+            />
+            <figcaption>Multiple arrays, one clean system</figcaption>
+          </figure>
         </div>
       </section>
 
