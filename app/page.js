@@ -73,19 +73,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* ============ CREW PHOTO ============ */}
-      <section className="section">
-        <div className="container">
-          <figure className="site-photo" style={{ marginTop: 0 }}>
-            <img
-              src="/crew-completed-install.jpg"
-              alt="Sharing Sun crew member on a rooftop solar job in the Denver metro"
-            />
-            <figcaption>Our crew on a Denver metro rooftop</figcaption>
-          </figure>
-        </div>
-      </section>
-
       {/* ============ SERVICES ============ */}
       <section className="section section-cloud">
         <div className="container">
@@ -140,6 +127,30 @@ export default function Home() {
               </p>
               <span className="card-link">Learn more &rarr;</span>
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ CREDENTIALS ============ */}
+      <section className="section">
+        <div className="container">
+          <p className="eyebrow">Certifications &amp; credentials</p>
+          <h2>Trained, certified, and accountable</h2>
+          <p className="lede">
+            Certifications aren&apos;t wall decorations — they&apos;re why your
+            equipment warranties hold and your inspections pass the first time.
+          </p>
+          <div className="cred-grid">
+            <span className="cred-chip">NABCEP PV INSTALLATION PROFESSIONAL</span>
+            <span className="cred-chip">CO CLASS A GENERAL CONTRACTOR</span>
+            <span className="cred-chip">TESLA CERTIFIED</span>
+            <span className="cred-chip">ENPHASE CERTIFIED</span>
+            <span className="cred-chip">SOLAREDGE CERTIFIED</span>
+            <span className="cred-chip">UNIRAC CERTIFIED</span>
+            <span className="cred-chip">OSHA 30 TRAINED</span>
+            <span className="cred-chip">NFPA TRAINED</span>
+            <span className="cred-chip">BBB ACCREDITED</span>
+            <span className="cred-chip">LICENSED &middot; INSURED</span>
           </div>
         </div>
       </section>
