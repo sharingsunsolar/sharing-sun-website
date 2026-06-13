@@ -28,7 +28,7 @@ export default function Upgrades() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">What we upgrade</p>
           <h2>Three upgrades, one crew</h2>
@@ -85,7 +85,7 @@ export default function Upgrades() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">Straight talk</p>
           <h2>When is an upgrade worth it?</h2>
@@ -102,7 +102,7 @@ export default function Upgrades() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">How it works</p>
           <h2>From assessment to switch-on</h2>
