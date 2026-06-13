@@ -74,7 +74,7 @@ export default function Home() {
       </div>
 
       {/* ============ SERVICES ============ */}
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">What we do</p>
           <h2>From new installs to reinstalls, one certified crew</h2>
@@ -132,7 +132,7 @@ export default function Home() {
       </section>
 
       {/* ============ CREDENTIALS ============ */}
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">Certifications &amp; credentials</p>
           <h2>Trained, certified, and accountable</h2>
@@ -140,23 +140,30 @@ export default function Home() {
             Certifications aren&apos;t wall decorations — they&apos;re why your
             equipment warranties hold and your inspections pass the first time.
           </p>
-          <div className="cred-grid">
+          <div className="logo-strip">
+            <div className="logo-tile"><img src="/logo-tesla.png" alt="Tesla Energy Certified Installer" /></div>
+            <div className="logo-tile"><img src="/logo-enphase.png" alt="Enphase Certified" /></div>
+            <div className="logo-tile"><img src="/logo-solaredge.png" alt="SolarEdge Certified" /></div>
+            <div className="logo-tile"><img src="/logo-unirac.png" alt="UniRac Certified" /></div>
+            <div className="logo-tile"><img src="/logo-snapnrack.png" alt="SnapNrack Certified" /></div>
+            <div className="logo-tile"><img src="/logo-quickbolt.png" alt="QuickBOLT Certified" /></div>
+            <div className="logo-tile"><img src="/logo-sei.png" alt="Solar Energy International trained" /></div>
+            <div className="logo-tile"><img src="/logo-nfpa.png" alt="NFPA 70E trained" /></div>
+            <div className="logo-tile"><img src="/logo-osha30.png" alt="OSHA 30 trained" /></div>
+            <div className="logo-tile"><img src="/logo-bbb.png" alt="BBB Accredited Business" /></div>
+          </div>
+          <div className="cred-grid" style={{ marginTop: "28px" }}>
             <span className="cred-chip">NABCEP PV INSTALLATION PROFESSIONAL</span>
             <span className="cred-chip">CO CLASS A GENERAL CONTRACTOR</span>
-            <span className="cred-chip">TESLA CERTIFIED</span>
-            <span className="cred-chip">ENPHASE CERTIFIED</span>
-            <span className="cred-chip">SOLAREDGE CERTIFIED</span>
-            <span className="cred-chip">UNIRAC CERTIFIED</span>
+            <span className="cred-chip">NFPA 70E TRAINED</span>
             <span className="cred-chip">OSHA 30 TRAINED</span>
-            <span className="cred-chip">NFPA TRAINED</span>
-            <span className="cred-chip">BBB ACCREDITED</span>
             <span className="cred-chip">LICENSED &middot; INSURED</span>
           </div>
         </div>
       </section>
 
       {/* ============ ROOFER BAND ============ */}
-      <section className="band">
+      <section className="band" data-animate>
         <div className="container band-inner">
           <div>
             <p className="eyebrow">For roofing contractors</p>
@@ -172,7 +179,7 @@ export default function Home() {
       </section>
 
       {/* ============ FINANCING TEASER ============ */}
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">Financing</p>
           <h2>Financing that fits the project</h2>
@@ -205,7 +212,7 @@ export default function Home() {
       </section>
 
       {/* ============ FINAL CTA ============ */}
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container" style={{ textAlign: "center" }}>
           <h2>Tell us about the job</h2>
           <p className="lede" style={{ margin: "0 auto 32px" }}>
