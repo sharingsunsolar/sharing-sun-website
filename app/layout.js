@@ -47,16 +47,21 @@ export default function RootLayout({ children }) {
           <div className="logo-marquee-track">
             {[0, 1].map((dup) => (
               <div className="logo-marquee-group" key={dup} aria-hidden={dup === 1}>
-                <img src="/logo-tesla.png" alt="Tesla Energy Certified Installer" />
-                <img src="/logo-enphase.png" alt="Enphase Certified" />
+                <img src="/logo-nabcep.png" alt="NABCEP Registered Provider — Photovoltaic Associate" />
+                <img src="/logo-tesla.png" alt="Tesla Energy Certified" />
                 <img src="/logo-solaredge.png" alt="SolarEdge Certified" />
                 <img src="/logo-unirac.png" alt="UniRac Certified" />
                 <img src="/logo-snapnrack.png" alt="SnapNrack Certified" />
-                <img src="/logo-quickbolt.png" alt="QuickBOLT Certified" />
                 <img src="/logo-sei.png" alt="Solar Energy International trained" />
-                <img src="/logo-nfpa.png" alt="NFPA 70E trained" />
                 <img src="/logo-osha30.png" alt="OSHA 30 trained" />
-                <img src="/logo-bbb.png" alt="BBB Accredited Business" />
+                <a
+                  href="https://www.bbb.org/us/co/brighton/profile/solar-panel-removal/sharing-sun-inc--1296-1000186197"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  tabIndex={dup === 1 ? -1 : 0}
+                >
+                  <img src="/logo-bbb.png" alt="BBB Accredited Business — view our profile" />
+                </a>
               </div>
             ))}
           </div>
