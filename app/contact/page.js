@@ -97,7 +97,7 @@ export default function Contact() {
             <h2>Reach us directly</h2>
             <p>
               <strong>Phone:</strong>{" "}
-              <a href="tel:+13035550123">(303) 555-0123</a>
+              <a href="tel:+17204435534">(720) 443-5534</a>
             </p>
             <p>
               <strong>Email:</strong>{" "}
