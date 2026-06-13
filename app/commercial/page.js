@@ -25,7 +25,7 @@ export default function Commercial() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">What we do</p>
           <h2>Three ways to put us on your project</h2>
@@ -71,7 +71,7 @@ export default function Commercial() {
         </div>
       </section>
 
-      <section className="band">
+      <section className="band" data-animate>
         <div className="container band-inner">
           <div>
             <p className="eyebrow">Worth knowing</p>
@@ -89,7 +89,7 @@ export default function Commercial() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">Credentials</p>
           <h2>The paperwork GCs ask for, ready to go</h2>
