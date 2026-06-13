@@ -24,7 +24,7 @@ export default function NewInstalls() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">Straight talk</p>
           <h2>Yes, the federal tax credit ended. Here&apos;s the honest math now.</h2>
@@ -44,7 +44,7 @@ export default function NewInstalls() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">What you get</p>
           <h2>Designed and built like we own it</h2>
@@ -87,7 +87,7 @@ export default function NewInstalls() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">How it works</p>
           <h2>From first call to first kilowatt</h2>
@@ -127,7 +127,7 @@ export default function NewInstalls() {
         </div>
       </section>
 
-      <section className="band">
+      <section className="band" data-animate>
         <div className="container band-inner">
           <div>
             <p className="eyebrow">Paying for it</p>
@@ -142,7 +142,7 @@ export default function NewInstalls() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container" style={{ textAlign: "center" }}>
           <h2>Start with a utility bill</h2>
           <p className="lede" style={{ margin: "0 auto 32px" }}>
