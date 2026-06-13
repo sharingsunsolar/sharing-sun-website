@@ -24,7 +24,7 @@ export default function Maintenance() {
         </div>
       </section>
 
-      <section className="section section-cloud">
+      <section className="section section-cloud" data-animate>
         <div className="container">
           <p className="eyebrow">What we do</p>
           <h2>Protection, repair, and a straight diagnosis</h2>
@@ -69,7 +69,7 @@ export default function Maintenance() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" data-animate>
         <div className="container">
           <p className="eyebrow">When to call</p>
           <h2>Signs your system needs attention</h2>
@@ -89,7 +89,7 @@ export default function Maintenance() {
         </div>
       </section>
 
-      <section className="band">
+      <section className="band" data-animate>
         <div className="container band-inner">
           <div>
             <p className="eyebrow">Worth bundling</p>
