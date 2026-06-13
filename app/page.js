@@ -30,9 +30,10 @@ export default function Home() {
             </h1>
             <p>
               Sharing Sun is a NABCEP-certified, Class A licensed solar contractor.
-              We install new solar, detach and reinstall systems for re-roofs, upgrade systems that no
-              longer cover the bill, and build commercial solar — from first permit
-              to final inspection.
+              We install new solar, detach and reinstall panels for re-roofs,
+              integrate battery storage, upgrade systems that no longer cover the
+              bill, and build commercial solar — from the first permit to the
+              final inspection.
             </p>
             <div className="hero-ctas">
               <a href="/contact" className="btn-amber">Get a quote</a>
@@ -72,6 +73,19 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ============ CREW PHOTO ============ */}
+      <section className="section">
+        <div className="container">
+          <figure className="site-photo" style={{ marginTop: 0 }}>
+            <img
+              src="/crew-completed-install.jpg"
+              alt="Sharing Sun crew member on a rooftop solar job in the Denver metro"
+            />
+            <figcaption>Our crew on a Denver metro rooftop</figcaption>
+          </figure>
+        </div>
+      </section>
+
       {/* ============ SERVICES ============ */}
       <section className="section section-cloud">
         <div className="container">
@@ -90,15 +104,15 @@ export default function Home() {
                 comes back online tested and inspected.
               </p>
               <span className="card-link">Learn more &rarr;</span>
-                  <a href="/new-installs" className="card">
-  <h3>New Solar Installation</h3>
-  <p>
-    New residential solar, sized honestly to your actual usage and
-    your actual roof — designed, permitted, and installed by the
-    same NABCEP-certified crew that quoted it.
-  </p>
-  <span className="card-link">Learn more &rarr;</span>
-</a>
+            </a>
+            <a href="/new-installs" className="card">
+              <h3>New Solar Installation</h3>
+              <p>
+                New residential solar, sized honestly to your actual usage and
+                your actual roof — designed, permitted, and installed by the
+                same NABCEP-certified crew that quoted it.
+              </p>
+              <span className="card-link">Learn more &rarr;</span>
             </a>
             <a href="/upgrades" className="card">
               <h3>System Upgrades</h3>
